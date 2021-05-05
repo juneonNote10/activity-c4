@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.menu-container {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.store-name {
+  font-family: 'Antonio', sans-serif;
+  font-size: 30px;
+}
+
+.user-contents {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.user-profile {
+  width: 45px;
+  height: 45px;
+  margin-right: 15px;
+}
+
+.user-search {
+  width: 23px;
+  height: 23px;
+  margin-right: 15px;
+}
+
+.user-cart {
+  width: 27px;
+  height: 27px;
+  margin-right: 15px;
+}
+
+.navi-container {
+  display: flex;
+  justify-content: center;
+}
+
+.navi-bar {
+  margin: 10px;
+  width: 1600px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #CACACA;
+  border-bottom: 1px solid #CACACA;
+}
+
+.navi-bar ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+.navi-bar li {
+  float: left;
+}
+
+.navi-bar li:last-child {
+  border-right: none;
+}
+
+.navi-bar li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 900;
+}
+
+.navi-bar li a:hover {
+  border-bottom: 4px solid #F30909;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.product {
+  width: 1000px;
+  height: 800px;
+  display: flex;
+}
+
+.product-display {
+  margin: 20px;
+}
+
+.product-name {
+  margin: 20px;
+  width: 450px;
+  color: #4F4F4F;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+}
+
+.product-image {
+  width: 500px;
+  height: 600px;
+  margin: 20px;
+}
+
+.product-property {
+  margin: 20px 0;
+}
+
+.product-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 0.5px solid #CACACA;
+}
+
+.product-options {
+  margin-top: 10px;
+}
+
+.size-title {
+  color: #5B5B5B;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+}
+
+.option-sizes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  padding-top: 7px;
+}
+
+.size {
+  background-color: #CACACA;
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-title {
+  color: #5B5B5B;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  padding-top: 30px;
+}
+
+.option-quantity {
+  display: flex;
+  margin: 10px;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.add {
+  width: 22px;
+  height: 22px;
+}
+
+.quantity {
+  color: #C8C8C8;
+  margin: 0 5px;
+  padding: 5px;
+  border: 1px solid #C7C7C7;
+}
+
+.subtract{
+  width: 22px;
+  height: 22px;
+}
+
+.option-price {
+  display: flex;
+  align-items: center;
+  padding-top: 28px;
+}
+
+.price-title {
+  color: #5B5B5B;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+}
+
+.price {
+  color: #5B5B5B;
+  font-family: 'Goblin One', cursive;
+  font-size: 35px;
+  padding-left: 10px;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.pay a {
+  color: #EDECEC;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+  background-color: #C92E00;
+  width: 375px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pay a:hover {
+  background-color: #962200;
+}
+
+.add-cart a {
+  color: #646464;
+  background-color: #BFBFBF;
+  font-family: 'Ubuntu', sans-serif;
+  width: 375px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.add-cart a:hover {
+  background-color: #A5A5A5;
+}
+
+.line-container {
+  display: flex;
+  justify-content: center;
+}
+
+.line {
+  border-bottom: 4px solid #F30909;
+  width: 1600px;
+}
+
+.resource-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+.resource {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1580px;
+  height: 300px;
+  border: 0.5px solid #CACACA;
+}
